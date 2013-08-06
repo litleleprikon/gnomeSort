@@ -11,12 +11,9 @@ def gnomeSort(arr):
         else:
             i+=1
             j+=1
-        print(j,arr)
     print(arr)
 
-arr=[]
-for i in range(random.randint(10,10)):
-    arr.append(random.randint(0,1000))
+arr=[random.randint(0,1000) for i in range(random.randint(10,20))]
 
 print(len(arr))
 print(arr)
